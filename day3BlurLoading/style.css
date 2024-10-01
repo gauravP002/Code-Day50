@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  height: 100vh;
+  overflow: hidden;
+  justify-content: center;
+  align-items: center;
+}
+
+.bg {
+  background: url(https://www.webfx.com/wp-content/uploads/2021/10/0451-08-website-background-image-levehytter.jpg);
+
+  position: absolute;
+  top: -30px;
+  left: -30px;
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: calc(100vw + 60px);
+  height: calc(100vh + 60px);
+  z-index: -1;
+
+  filter: blur(0px);
+}
+
+.loading-text {
+  font-size: 50px;
+  color: #fff;
+}
